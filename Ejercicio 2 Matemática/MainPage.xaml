@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_2_Matemática.MainPage">
+
+    <ScrollView>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Image Source="matematica.jpg"  HeightRequest="200"/>
+            <Entry x:Name="Numero1" Placeholder="Número 1" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium"/>
+            <Entry x:Name="Numero2" Placeholder="Número 2" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium"/>
+            <Button x:Name="Calcular" Text="Calcular" Clicked="OnButtonClicked" Margin="10, 10, 10, 10" BorderColor="Purple" BorderWidth="3" FontFamily="Centhry Gothic" FontSize="Medium" BackgroundColor="Bisque"/>
+            <Label Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium">El resultado de la operación (A + B)^2 /2 es:</Label>
+            <Entry x:Name="Fintotal" Placeholder="El total es:" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium" IsEnabled="False"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
